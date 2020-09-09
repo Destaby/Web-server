@@ -1,0 +1,11 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "This is the web-server, which contains several applications and will have an authorization",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Rudyk <rudik.nick.nick@gmail.com>",
+  "license": "MIT"
+}
