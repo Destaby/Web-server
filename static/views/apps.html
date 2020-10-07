@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="../public/js/general/navBar.js" type="module"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../public/js/apps.js" type="module"></script>
+    <link rel="stylesheet" href="../public/css/home.css" />
+    <link rel="stylesheet" href="../public/css/apps.css" />
+    <title>Apps</title>
+  </head>
+  <body>
+    <div class="nav">
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-header">
+        <div class="nav-title">Destaby</div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/apps" class="current">Apps</a>
+      </div>
+    </div>
+
+    <div class="pimg1">
+      <div class="ptext" id="delete">
+        <span class="border"> Applications </span>
+      </div>
+    </div>
+
+    <h1>To use apps you have to login</h1>
+
+    <div class="container-2">
+      <div
+        class="container-2-box img img_breathe notAllowed light"
+        data-name="/apps/breathe"
+      >
+        <a><h3>Breathe</h3></a>
+      </div>
+      <div
+        class="container-2-box img img_chuck notAllowed dark"
+        data-name="/apps/chuck"
+      >
+        <a><h3>Chuck`s jokes</h3></a>
+      </div>
+      <div
+        class="container-2-box img img_weather notAllowed weather"
+        data-name="/apps/weather"
+      >
+        <a><h3>Weather</h3></a>
+      </div>
+      <div
+        class="container-2-box img img_snow notAllowed snow"
+        data-name="/apps/newYear"
+      >
+        <a><h3>New Years Eve</h3></a>
+      </div>
+    </div>
+  </body>
+</html>

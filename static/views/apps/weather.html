@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Access-Control-Allow-Origin" content="*" />
+    <link rel="stylesheet" href="../public/css/home.css" />
+    <link rel="stylesheet" href="../public/css/weather.css" />
+    <script src="../../public/js/general/navBar.js" type="module"></script>
+    <script src="../../public/js/weather.js" type="module"></script>
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="nav">
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-header">
+        <div class="nav-title">Destaby</div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <div id="nav-links" class="nav-links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/apps">Apps</a>
+      </div>
+    </div>
+    <div class="back"></div>
+    <div class="form">
+      <div class="form-group">
+        <div class="form-row">
+          <label for="city">Get weather from city</label>
+          <input
+            type="text"
+            class="form-input"
+            id="city"
+            placeholder="City..."
+          />
+        </div>
+        <a class="form-btn">Search</a>
+      </div>
+    </div>
+    <div class="loading"></div>
+    <div class="notify"></div>
+
+    <div class="display-table"></div>
+  </body>
+</html>

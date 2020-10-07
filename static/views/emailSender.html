@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../public/css/home.css" />
+    <link rel="stylesheet" href="../public/css/login.css" />
+    <script src="../public/js/emailSender.js" type="module"></script>
+    <title>Reset</title>
+  </head>
+  <body>
+    <div class="nav">
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-header">
+        <div class="nav-title">Destaby</div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/apps">Apps</a>
+        <a href="/register">Register</a>
+        <a href="/login" class="current">Login</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="wrapper bounceInLeft">
+        <div class="contact">
+          <h3>Enter your email</h3>
+          <form>
+            <p class="inputEmail">
+              <label for="email">Email</label>
+              <input type="email" name="email" placeholder="Email" required />
+            </p>
+            <p class="full">
+              <button type="submit">Send link to email</button>
+            </p>
+            <div class="underSubmit">
+              <span> <a href="/register">Registration</a></span>
+            </div>
+            <p class="notify"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

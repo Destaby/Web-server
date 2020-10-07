@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../public/css/home.css" />
+    <link rel="stylesheet" href="../../public/css/chuck.css" />
+    <script src="../../public/js/general/navBar.js" type="module"></script>
+    <script src="../../public/js/chuck.js" type="module"></script>
+    <title>Chuck</title>
+</head>
+<body>
+  <div class="nav">
+    <input type="checkbox" id="nav-check" />
+    <div class="nav-header">
+      <div class="nav-title">Destaby</div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <div class="nav-links" id="nav-links">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/apps">Apps</a>
+    </div>
+  </div>
+  <main>
+    <div id='left'>
+        <p id='Hey'>Hey!</p>
+        <p id='find'>Let’s try to find a joke for you:</p>
+        <div id='buttons'>
+            <button class='menu' id='Ran'><div class='in'></div></button><span class='buttex'>Random</span></br>
+            <button class='menu' id='From'><div class='in'></div></button><span class='buttex'>From categories</span></br>
+            <button class='menu' id='Sear'><div class='in'></div></button><span class='buttex'>Search</span></br>
+            <button id='get-jokes'><span id='gettext'>Get a joke</span></button>
+        </div>
+    </div>
+    <div id='right'>
+        <p id='Favourite'>Favourite</p>
+        <div id='FavJokes'></div>
+    </div>
+  </main>
+</body>
+</html>

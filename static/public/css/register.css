@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font: 18px Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+  color: #333;
+  background: #6c6f6f;
+  width: 100vw;
+}
+
+.nav {
+  position: fixed;
+}
+
+#particles-js {
+  position: relative;
+  background: #6c6f6f;
+  height: 100vh;
+  min-height: 600px;
+  margin: 0;
+  width: 100%;
+}
+
+#login {
+  background: #fff;
+  border: #ccc 2px solid;
+  position: absolute;
+  top: 10.5vh;
+  left: 2vw;
+  padding: 0 2em 0.5em;
+  box-shadow: 1px 1px 1.5px 1.5px #ccc;
+  margin: 0px;
+  opacity: 0.7;
+}
+
+#login input[type='text'],
+#login input[type='password'],
+#login input[type='email'] {
+  padding: 7px;
+  margin-bottom: 2px;
+  border: 1px #ccc solid;
+}
+
+form {
+  padding-top: 1.2rem;
+}
+
+.notify {
+  display: none;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  background: red;
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid red;
+  max-width: 100%;
+  margin-right: -10rem !important;
+}
+
+form > div {
+  margin: 10px;
+}
+
+#login input[type='submit'] {
+  font-size: 16px;
+  background-color: #9b9e9e;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+#login input[type='submit']:hover {
+  background-color: #474a4d;
+  color: white;
+  padding: 5px 9px;
+}
+
+#login:hover {
+  box-shadow: none;
+}
+
+#login:hover {
+  opacity: 1;
+}
+
+input {
+  margin-top: 0.4rem;
+}
+
+#login input[type='submit']:focus {
+  outline: 0;
+}
+
+.container {
+  margin-top: 0.6rem;
+}
+
+#codeForm {
+  display: none;
+}
+
+.codeHeader {
+  max-width: 100%;
+}
+
+@media (max-height: 510px) {
+  @media (min-width: 550px) {
+    #login {
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      width: 90%;
+      padding: 2em;
+      border: #ccc 2px solid;
+      box-shadow: 1px 1px 1.5px 1.5px #ccc;
+    }
+    form {
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+    }
+
+    .container {
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 900px) {
+      form {
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+      #particles-js {
+        width: 100vw;
+      }
+      .container {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+/* form {
+  border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+} */
