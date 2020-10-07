@@ -106,10 +106,11 @@ const createTable = weather => {
     const { applicable_date: date, weather_state_abbr: imgAb } = el;
     const day = new Date(date).toLocaleDateString('en-EN', dateOptions);
     const img = getImg(imgAb);
+    const index = day.indexOf(',') + 2;
     days += `
     <div class='dayImg'>
-      <span class='dayDel'>${day.slice(0, -4)}</span>
-      <span>${day.slice(-4)}</span>${img}
+      <span class='dayDel'>${day.slice(0, index)}</span>
+      <span>${day.slice(index)}</span>${img}
     </div>
   `;
   });

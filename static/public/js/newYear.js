@@ -5,8 +5,8 @@ const hoursEl = document.getElementById('hours');
 const minsEl = document.getElementById('mins');
 const secondsEl = document.getElementById('seconds');
 
-const nextYear = new Date().getFullYear() + 1;
-const newYears = `1 Jan ${nextYear}`;
+let nextYear = new Date().getFullYear() + 1;
+let newYears = '1 Jan ' + nextYear;
 
 const formatTime = time => (time < 10 ? `0${time}` : time);
 
@@ -25,6 +25,11 @@ const countdown = () => {
   hoursEl.innerHTML = formatTime(hours);
   minsEl.innerHTML = formatTime(mins);
   secondsEl.innerHTML = formatTime(seconds);
+
+  if (!days && !hours && !mins && !seconds) {
+    nextYear++;
+    newYears = '1 Jan ' + nextYear;
+  }
 };
 
 window.addEventListener('load', async () => {
