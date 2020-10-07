@@ -11,6 +11,6 @@ This is the web-server, which contains several applications and have an authoriz
   - создаем базу данных `CREATE DATABASE databaseName OWNER yourUser;`
   - `\quit` выходим
 - Исполняем файл с SQL скриптом создания базы
-  - `psql -U yourUser -d databaseName -a -f .\db\example.sql`
+  - `psql -U yourUser -d databaseName -a -f .\db\structure.sql`
 - Установка зависимостей (включая модуль `pg`) `npm i`
 - Запуск `node server.js`
