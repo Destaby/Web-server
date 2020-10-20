@@ -4,7 +4,9 @@
   "description": "This is the web-server, which contains several applications and will have an authorization",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint .",
+    "test": "npm run -s lint && node test/all.js"
   },
   "author": "Nick Rudyk <rudik.nick.nick@gmail.com>",
   "license": "MIT",

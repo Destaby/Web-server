@@ -1,5 +1,5 @@
 import { getApi } from './general/loader.js';
-const load = ['signIn', 'status'];
+const load = ['status'];
 const special = ['signIn'];
 
 const form = document.querySelector('form');
