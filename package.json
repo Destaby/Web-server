@@ -2,7 +2,7 @@
   "name": "web-server",
   "version": "1.0.0",
   "description": "This is the web-server, which contains several applications and will have an authorization",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint .",
