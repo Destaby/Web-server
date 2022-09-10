@@ -4,6 +4,7 @@ const special = ['deleteUser'];
 (async () => {
   window.api = await getApi(load, special);
   const { result } = await api.status();
+  console.log({ result})
   if (result === 'logged') {
     const { name } = await api.getUserInfo();
     userLogged(name);

@@ -55,19 +55,19 @@ h1 {
 }
 
 .img_breathe {
-  background: url(../images/apps/breathe_app.png) no-repeat center center;
+  background: url(../images/breathe.jpg) no-repeat center center;
 }
 
 .img_weather {
-  background: url(../images/apps/weather_app.png) no-repeat center center;
+  background: url(../images/weather.jpg) no-repeat center center;
 }
 
 .img_chuck {
-  background: url(../images/apps/chuck_app.png) no-repeat center center;
+  background: url(../images/chuck.png) no-repeat center center;
 }
 
 .img_snow {
-  background: url(../images/apps/snow_app.png) no-repeat center center;
+  background: url(../images/snow.jpg) no-repeat center center;
 }
 
 .img {
@@ -94,7 +94,7 @@ h1 {
 }
 
 .weather.allowed a {
-  color: #d6e100;
+  color: purple;
 }
 
 .light.allowed a {
@@ -102,7 +102,7 @@ h1 {
 }
 
 .dark.allowed a {
-  color: #0048ba;
+  color: purple;
 }
 
 .notAllowed {

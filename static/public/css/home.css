@@ -2,9 +2,13 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0px;
-  font-family: 'segoe ui';
+body,
+html {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
 }
 
 .nav {
@@ -29,6 +33,7 @@ body {
 
 .nav-name {
   margin-left: 10%;
+  margin-top: 2px;
 }
 
 .nav > .nav-btn {
@@ -174,36 +179,3 @@ body {
     display: none !important;
   }
 }
-
-/* body {
-  min-width: 1340px;
-  min-height: 580px;
-}
-
-h1 { 
-  text-align: center;    
-}
-
-#Start-1 {
-  position: absolute;
-  top: 350px;
-  left: 450px;
-}
-
-#Start-2 {
-  position: absolute;
-  top: 350px;
-  left: 750px;
-}
-
-.Start {
-  width: 152px;
-  height: 42px;
-  font-size: 25px;
-  margin-left: 5px;
-  margin-right: 5px;
-
-
-  background: linear-gradient(to right, red, yellow);
-  border-radius: 10px;
-} */

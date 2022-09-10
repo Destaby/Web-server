@@ -1,6 +1,6 @@
 export class Metacom {
   constructor(host) {
-    this.socket = new WebSocket('wss://' + host);
+    this.socket = new WebSocket('ws://' + host);
     this.api = {};
     this.callId = 0;
     this.calls = new Map();

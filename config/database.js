@@ -1,7 +1,7 @@
 ({
   host: '127.0.0.1',
   port: 5432,
-  database: 'database',
-  user: 'user',
-  password: 'password',
+  database: 'databasename',
+  user: 'youruser',
+  password: 'yourPassword',
 });

@@ -264,7 +264,7 @@ function appenderToCreate(jokeInfo, flag = true) {
   date.classList.add('update');
   icon.classList.add('icon');
   icon.setAttribute('alt', 'nothing');
-  icon.setAttribute('src', jokeInfo.icon_url);
+  icon.setAttribute('src', '../../public/images/chuck-norris.png');
   id.innerText = `ID: ${jokeInfo.id}`;
   id.classList.add('id');
   id.setAttribute('href', `${jokeInfo.url}`);
